@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Transaction History</title>
+<link rel="stylesheet" type="text/css" href="transactionhistory.css">
+</head>
+<body onload="showTransactionHistory()">
+	<header>
+		<div class="head">
+			<div class="logo">
+				<img src="logo.png" alt="logo">
+			</div>
+			<div class="page-title">Transaction History</div>
+			<div class="navigation">
+				<ul>
+					<li><a class="nav-icon">About us</a></li>
+					<li><a class="nav-icon">Contact us</a></li>
+					<li><a class="nav-icon">Log out</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="tabular">
+		<table id="tabs">
+			<thead>
+				<tr>
+					<th class="t-date inside-table">Date</th>
+					<th class="t-time inside-table">Time</th>
+					<th class="t-amount inside-table">Amount</th>
+					<th class="t-des inside-table">Transaction description</th>
+					<th class="t-balance inside-table">balance</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+	<script type="text/javascript" src="transactionhistory.js"></script>
+</body>
+</html>

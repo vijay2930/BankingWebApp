@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/de2421ab51.js" crossorigin="anonymous"></script>
+  <!-- Design by foolishdeveloper.com -->
+    <title>BankOfBanks</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <style media="screen">
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form>
+        <h3>Sign-up</h3>
+        <div>
+        <label for="first-name">First-name</label>
+        <input type="text" placeholder="First-name" id="f-name" required>
+        </div>
+        <div>
+        <label for="last-name">Last-name</label>
+        <input type="text" placeholder="Last-name" id="l-name" required>
+        </div>
+        <div>
+        <label for="age">Age</label>
+        <input type="number" placeholder="Age" id="age" required>
+        </div>
+        <div>
+        <label for="dob">Date of Birth</label>
+        <input type="date" placeholder="D-O-B" id="dob" required>
+        </div>
+         <div>
+        <label for="address">Address</label>
+        <input type="text" placeholder="Address" id="address" required>
+        </div>
+        <div>
+        <label for=" nationality">Nationality</label>
+        <input type="text" placeholder="Nationality" id="nationality" required>
+        </div>
+         <div>
+        <label for="adhaar-number">Adhaar number</label>
+        <input type="number" placeholder="Adhaar number" id="adhaar-no" required>
+        </div>
+        <div class="pass">
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password1" required>
+        <i class="fa fa-eye-slash eye" id=pass1; onclick="showPass(this.id)" aria-hidden="true"></i>
+        </div>
+        <div class="pass">
+        <label for="password">Re-Enter Password</label>
+        <input type="password" placeholder="Password" oninput="checkPass()" id="password2" required>
+        <i class="fa fa-eye-slash eye" id="pass2" onclick="showPass(this.id)" aria-hidden="true"></i>
+         </div>
+        <div class="checker" id="checkText"><img id="checkimg" alt="warning" src="warn.png"><div id="match">password doesn't match</div></div>
+        <button id="sign-up" onclick="signUp()">Create-Account</button>
+    </form>
+    <script type="text/javascript" src="signup.js"></script>
+</body>
+</html>
+<!-- partial -->
+</body>
+</html>

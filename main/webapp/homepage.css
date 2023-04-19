@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f7f7f7;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	margin-top: -20px;
+	margin-left: -90px;
+	float: left;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.log {
+	display: inline-block;
+	font-size: large;
+	width: 150px;
+	height: 150px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header {
+	background-color: #007bff;
+	color: #fff;
+	padding: 20px 0;
+	overflow: auto;
+	height: 60px;
+}
+
+header .logo img {
+	max-height: 80px;
+}
+
+.naviContainer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	float: right;
+}
+
+.navi {
+	margin-right: 20px;
+}
+
+.navi:last-child {
+	margin-right: 0;
+}
+
+.naviContainer ul {
+	display: inline-block;
+}
+
+.navi {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.navi:hover {
+	background-color: #fff;
+	color: #007bff;
+	box-shadow: 2px 2px 7px rgb(52, 51, 51);
+}
+
+main {
+	margin: 20px 0;
+}
+
+.card {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.card-body {
+	padding: 20px;
+}
+
+.card h2 {
+	margin-top: 0;
+}
+
+.card p {
+	margin-bottom: 20px;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #007bff;
+	color: #fff;
+	font-size: medium;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#balanceButton {
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #0069d9;
+	font-size: large;
+	box-shadow: 2px 2px 7px black;
+}
+
+.balance {
+	display: none;
+	font-size: 33px;
+}
+
+footer {
+	background-color: #ccc;
+	color: #333;
+	text-align: center;
+	padding: 20px 0;
+}
+
+@media ( max-width : 768px) {
+	.naviContainer ul {
+		flex-direction: column;
+	}
+	.navi {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.logo {
+		float: none;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+}
+
+.name2:hover {
+	font-size: 25px;
+}
+
+.account-details {
+	border: white;
+	background-color: #007bff;
+	color: white;
+	margin-top: 40vh;
+	margin-left: 48vw;
+	transform: translate(-50%, -50%);
+	text-align: center;
+     justify-content: center;
+     align-items: center;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: -190px;
+	width: 330px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 12px rgb(40, 39, 39);
+	overflow: hidden;
+	height: 270px;
+}
+
+.user-dp {
+	margin-left: 1px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: -10px;
+}
+
+.balance-dp {
+	display:none;
+	width: 100px;
+	height: 100px;
+	margin-top: 23px;
+	margin-left:117px;
+}
+
+.account-details h2 {
+	margin-top: 30px;
+}
+
+.account-details p {
+	margin: 10px 0;
+}
+.progress{
+    position: absolute;
+    margin-top: -422px;
+    margin-left: 610px;
+}
+#p-bar{
+	display:none;
+}
+

@@ -1,0 +1,237 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	height: 100px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	background-color: #007bff;
+	color: #fff;
+	padding: 1 rem;
+	padding-top: 30px;
+}
+
+.container {
+	display: flex;
+}
+
+.navicon {
+	position: relative;
+	left: 350px;
+}
+
+.navicon a {
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px;
+	font-size: 16px;
+	color: white;
+	margin-right: 10px;
+}
+
+.navicon a:hover {
+	background-color: white;
+	color: #007bff;
+	box-shadow: 2px 2px 7px rgb(52, 51, 51);
+}
+
+.dp {
+	border-radius: 50%;
+}
+
+.heading {
+	margin-left: 31vw;
+}
+
+.logo {
+	float: left;
+}
+
+.log {
+	height: 80px;
+	width: 150px;
+	position: relative;
+	top: -15px;
+	left: 20px;
+}
+
+.details {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.account-input {
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	background-color: #007bff;
+	color: white;
+	margin-left: 37vw;
+	margin-top: 153px;
+	padding-left: 44px;
+	padding-right: 46px;
+	padding-top: 35px;
+	padding-bottom: 70px;
+	border-radius: 10px;
+	height: 56vh;
+	width: 45vh;
+	box-shadow: 2px 2px 14px rgb(40, 39, 39);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.acc-label {
+	margin-top: 112px;
+	margin-bottom: 1rem;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.des-label {
+	margin-top: 112px;
+	margin-bottom: 1rem;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.description {
+	margin-left:6px;
+	display: none;
+	margin-top: -87px;
+}
+
+.acc-box {
+	margin-left: -5;
+	width: 250;
+	height: 40;
+	padding: 0.5rem;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	/* height: 35px;
+    width: 220px; */
+}
+
+button {
+	font-size: medium;
+	outline: none;
+	padding: 0.5rem 1rem;
+	margin-top: 1rem;
+	border-radius: 5px;
+	border: none;
+	background-color: white;
+	box-shadow: 3px 3px 12px rgb(48, 94, 168);
+	color: #007bff;
+	cursor: pointer;
+}
+
+button:hover {
+	font-size: large;
+}
+
+.receiver-account {
+	display: inline-block;
+}
+
+.msg {
+	display: none;
+}
+
+.warningshower {
+	font-size: 22px;
+	font-weight: bolder;
+}
+
+.imgs {
+	margin-top: 75px;
+	margin-bottom: 20px;
+}
+
+.account-details {
+	display: none;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	background-color: #007bff;
+	height: 56vh;
+	width: 56vh;
+	color: white;
+	margin-left: 200px;
+	margin-top: 150px;
+	border-radius: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	font-size: small;
+	box-shadow: 2px 2px 14px rgb(40, 39, 39);
+}
+
+.account-details img {
+	width: 120px;
+	height: 120px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.account-details h2 {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.account-details h2:hover {
+	font-size: 25px;
+}
+
+.account-details p {
+	margin-top: 4px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.account-details input[type="number"] {
+	padding: 0.5rem;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	margin-left: 1px;
+	height: 35px;
+	width: 170px;
+	margin-top: -10px;
+}
+
+.account-details button {
+	margin-left: 1px;
+}
+
+.des-box {
+	padding: 0.5rem;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	height: 40px;
+	margin-top: 0px;
+	margin-left: 0;
+	width: 250;
+}
+
+#imager {
+	border-radius: none;
+}
+
+.account-details label {
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.account-details button:hover {
+	background-color: #3fbe3f;
+	color: white;
+}
+
+#inputer {
+	margin-top: 20px;
+}

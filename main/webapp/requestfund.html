@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Request Details</title>
+<link rel="stylesheet" href="requestfund.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<img class="log" src="logo.png" alt="Logo">
+			</div>
+			<div class="heading">
+				<h1>Request Funds</h1>
+			</div>
+			<div class="navicon">
+				<ul>
+					<a class="navi" href="#">About us</a>
+					<a class="navi" href="#">Contact us</a>
+					<a class="navi" href="#">Logout</a>
+				</ul>
+			</div>
+		</div>
+
+	</header>
+	<div class="container">
+		<div class="account-input">
+			<form>
+				<label  class="acc-label" for="account-number">Enter Account Number:</label> <input class="acc-box"
+					type="text" id="account-number" name="account-number" required>
+				<button type="button" onclick="checkAccNumber()">Submit</button>
+				<div class="description">
+					<div class="des-label"><label  for="account-number">If you have any description type here:</label></div><input
+						class="des-box" type="text" id="des-send" name="description" required>
+				</div>
+			</form>
+		</div>
+		<div class="account-details" id="detail-tag">
+			<div class="receiver-account">
+				<img src="dpbank.png" class="dp" alt="User Photo">
+				<h2 class="name" id="acc-holder-name">Account Holder: Siva
+					Subramaniyan</h2>
+				<div class="details">
+					<p id="acc-no">Account Number: 8825846797</p>
+					<p id="age">Age: 23</p>
+					<p id="dob">Date of Birth: 29/08/2000</p>
+				</div>
+				<div id="inputer">
+					<label for="amount" id="inputMsg"> Enter the amount you
+						want to request</label> <br></br> <input class="inputbox"
+						oninput="isValid()" type="number" id="amount" name="amount"
+						required>
+					<button type="submit" onclick="transfer()" id="submitButton">Request</button>
+				</div>
+			</div>
+			<div class="msg">
+				<div class="imgs">
+					<img id="imager" src="not-found.png">
+				</div>
+				<div class="warningshower" id="message">You cannot request
+					money from your own account</div>
+			</div>
+		</div>
+	</div>
+	<script src="requestfund.js"></script>
+</body>
+</html>

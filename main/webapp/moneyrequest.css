@@ -1,0 +1,146 @@
+@charset "UTF-8";@charset "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+.head{
+	height:100px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 26px;
+	background-color: #007bff;
+	color: #fff;
+	display: flex;
+	
+}
+.paid-button{
+	border-radius:10%;
+	font-size: medium;
+    background-color:#C4C4C4;
+    padding:9px;
+    padding-left:20px;
+    padding-right:20px;
+    border:none;
+    box-shadow: 1px 1px 5px rgb(48, 94, 168);
+	
+}
+.pay-button{
+	border-radius:10%;
+	font-size: medium;
+    background-color:#66cc99;
+    padding:9px;
+    padding-left:20px;
+    padding-right:20px;
+    border:none;
+    box-shadow: 1px 1px 5px rgb(48, 94, 168);
+	
+}
+.pay-button:hover{
+	background-color:#16a085 ;
+}
+.page-title{
+	position:relative;
+	margin-top:35px;
+	margin-left:390px;
+	font-weight:bolder;
+	display: inline-block;
+	margin-bottom:30px;
+}
+
+.navigation{
+	margin-top:30px;
+	margin-left:320px;
+	font-size:16px;
+	display:inline-block;
+}
+.navigation ul{
+	display:flex;
+}
+.navigation ul li{
+	padding:10px;
+	list-style-type:none;
+	margin-left:10px;
+}
+.navigation ul li:hover{
+	background-color: white;
+	color: #007bff;
+	box-shadow: 2px 2px 7px rgb(52, 51, 51);
+	
+}
+.logo{
+	margin-left:10px;
+	margin-top:10px;
+	display:inline-block;
+}
+.logo img{
+	height:90px;
+	width:165px;
+}
+.tabular{
+	overflow:auto;
+	font-family: 'Poppins', sans-serif;
+	border-radius:1%;
+	width:75em;
+	height:30em;
+	margin:auto;
+	margin-top:8em;
+	background-color:#98d4ff;
+    box-shadow: 2px 2px 14px rgb(40, 39, 39);
+}
+.tabular table{
+	border-collapse:collapse;
+}
+.inside-table{
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+thead{
+	background-color: #27a8f7;
+}
+tbody:nth-child(odd){
+	background-color: #27a8f7;
+}
+.ted{
+	text-align:center;
+	width: 11.2%;
+}
+.t-des{
+	padding-left:25px;
+	padding-right:10px;
+	width: 30%;
+}
+.t-des-t{
+	padding-left:0px;
+	padding-right:10px;
+	width: 30%;
+}
+table{
+	width: 100%;
+}
+.result-box{
+	display:none;
+	margin-left: 550px;
+    margin-top: 190px;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 310px;
+    height: 225px;
+    border-radius: 10px;
+    background-color: #007bff;
+    box-shadow: 2px 2px 12px rgb(40 39 39);
+}
+
+.result-box img{
+	height: 133px;
+    width: 132px;
+}
+ .result-text{
+    margin-top: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+  }
+
